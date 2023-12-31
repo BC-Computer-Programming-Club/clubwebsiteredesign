@@ -1,0 +1,736 @@
+.uw-seattle-cs-guest-speakers-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-color: #323232;
+}
+.uw-seattle-cs-guest-speakers-container01 {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000000;
+}
+.uw-seattle-cs-guest-speakers-text {
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.uw-seattle-cs-guest-speakers-navbar-interactive {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+  background-color: #000000;
+}
+.uw-seattle-cs-guest-speakers-desktop-menu {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-links {
+  flex: 1;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.uw-seattle-cs-guest-speakers-navlink {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink01 {
+  color: rgb(255, 255, 255);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink02 {
+  color: rgb(255, 255, 255);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink03 {
+  color: rgb(255, 255, 255);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink04 {
+  color: rgb(255, 255, 255);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink05 {
+  color: rgb(255, 255, 255);
+  margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link01 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image01 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link02 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image02 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link03 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image03 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-burger-menu {
+  display: none;
+}
+.uw-seattle-cs-guest-speakers-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.uw-seattle-cs-guest-speakers-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 0px;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  visibility: hidden;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-nav {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.uw-seattle-cs-guest-speakers-top {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-close-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.uw-seattle-cs-guest-speakers-icon2 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.uw-seattle-cs-guest-speakers-links1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.uw-seattle-cs-guest-speakers-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-text11 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-text12 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-container02 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 30px;
+  display: flex;
+  visibility: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 30px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-link04 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image04 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link05 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image05 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link06 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image06 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link07 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image07 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-text13 {
+  color: rgb(255, 255, 255);
+  font-size: 54px;
+  margin-top: var(--dl-space-space-threeunits);
+}
+.uw-seattle-cs-guest-speakers-text14 {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-sixunits);
+  margin-right: var(--dl-space-space-sixunits);
+}
+.uw-seattle-cs-guest-speakers-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  justify-content: center;
+}
+.uw-seattle-cs-guest-speakers-image08 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+}
+.uw-seattle-cs-guest-speakers-image09 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  justify-content: center;
+}
+.uw-seattle-cs-guest-speakers-image10 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+}
+.uw-seattle-cs-guest-speakers-image11 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-sixunits);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.uw-seattle-cs-guest-speakers-image12 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+}
+.uw-seattle-cs-guest-speakers-image13 {
+  width: 500px;
+  height: 340px;
+  object-fit: cover;
+  margin-left: var(--dl-space-space-unit);
+}
+.uw-seattle-cs-guest-speakers-footer {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-container08 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-logo {
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.uw-seattle-cs-guest-speakers-text15 {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+.uw-seattle-cs-guest-speakers-text20 {
+  color: rgb(255, 255, 255);
+  margin-top: var(--dl-space-space-oneandhalfunits);
+}
+.uw-seattle-cs-guest-speakers-links-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-container09 {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-product-container {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-navlink06 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink07 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink08 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink09 {
+  color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-navlink10 {
+  color: #ffffff;
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-container10 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-contact {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-navlink11 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link08 {
+  color: rgb(255, 255, 255);
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-text24 {
+  color: #ffffff;
+}
+.uw-seattle-cs-guest-speakers-socials {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.uw-seattle-cs-guest-speakers-text25 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}
+.uw-seattle-cs-guest-speakers-icon-group1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.uw-seattle-cs-guest-speakers-link09 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image14 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link10 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image15 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link11 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image16 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  margin-right: var(--dl-space-space-unit);
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-link12 {
+  display: contents;
+}
+.uw-seattle-cs-guest-speakers-image17 {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin-left: 0px;
+  text-decoration: none;
+}
+.uw-seattle-cs-guest-speakers-separator {
+  width: 100%;
+  height: 1px;
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-gray-900);
+}
+.uw-seattle-cs-guest-speakers-text26 {
+  color: #ffffff;
+  align-self: center;
+}
+.uw-seattle-cs-guest-speakers-text27 {
+  color: rgb(255, 255, 255);
+  align-self: center;
+  margin-top: var(--dl-space-space-unit);
+}
+@media(max-width: 991px) {
+  .uw-seattle-cs-guest-speakers-text {
+    font-size: 42px;
+  }
+  .uw-seattle-cs-guest-speakers-text13 {
+    font-size: 48px;
+  }
+  .uw-seattle-cs-guest-speakers-container05 {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .uw-seattle-cs-guest-speakers-container06 {
+    margin-top: var(--dl-space-space-threeunits);
+  }
+  .uw-seattle-cs-guest-speakers-container07 {
+    margin-top: var(--dl-space-space-threeunits);
+    margin-bottom: var(--dl-space-space-threeunits);
+  }
+  .uw-seattle-cs-guest-speakers-footer {
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-container09 {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .uw-seattle-cs-guest-speakers-product-container {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 767px) {
+  .uw-seattle-cs-guest-speakers-text {
+    font-size: 32px;
+  }
+  .uw-seattle-cs-guest-speakers-navbar-interactive {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .uw-seattle-cs-guest-speakers-burger-menu {
+    align-items: center;
+    justify-content: center;
+  }
+  .uw-seattle-cs-guest-speakers-text06 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text07 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text10 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text11 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text12 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text13 {
+    font-size: 38px;
+  }
+  .uw-seattle-cs-guest-speakers-container05 {
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-image09 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-container06 {
+    margin-top: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-image11 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-container07 {
+    margin-top: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-image13 {
+    margin-top: var(--dl-space-space-unit);
+    margin-left: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .uw-seattle-cs-guest-speakers-container08 {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .uw-seattle-cs-guest-speakers-logo {
+    align-items: center;
+  }
+  .uw-seattle-cs-guest-speakers-text20 {
+    margin-top: var(--dl-space-space-twounits);
+    text-align: center;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .uw-seattle-cs-guest-speakers-links-container {
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .uw-seattle-cs-guest-speakers-container09 {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+  .uw-seattle-cs-guest-speakers-product-container {
+    margin-right: var(--dl-space-space-fourunits);
+  }
+}
+@media(max-width: 479px) {
+  .uw-seattle-cs-guest-speakers-text {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+  }
+  .uw-seattle-cs-guest-speakers-navbar-interactive {
+    padding: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-desktop-menu {
+    display: none;
+  }
+  .uw-seattle-cs-guest-speakers-burger-menu {
+    display: flex;
+  }
+  .uw-seattle-cs-guest-speakers-icon {
+    fill: #ffffff;
+  }
+  .uw-seattle-cs-guest-speakers-mobile-menu {
+    height: 35vh;
+    padding: 16px;
+    visibility: visible;
+    background-color: #000000;
+  }
+  .uw-seattle-cs-guest-speakers-text03 {
+    color: #ffffff;
+  }
+  .uw-seattle-cs-guest-speakers-text04 {
+    font-size: 18px;
+  }
+  .uw-seattle-cs-guest-speakers-icon2 {
+    fill: #ffffff;
+  }
+  .uw-seattle-cs-guest-speakers-text06 {
+    color: rgb(255, 255, 255);
+  }
+  .uw-seattle-cs-guest-speakers-text07 {
+    color: rgb(255, 255, 255);
+  }
+  .uw-seattle-cs-guest-speakers-text10 {
+    color: rgb(255, 255, 255);
+  }
+  .uw-seattle-cs-guest-speakers-text11 {
+    color: rgb(255, 255, 255);
+  }
+  .uw-seattle-cs-guest-speakers-text12 {
+    color: rgb(255, 255, 255);
+  }
+  .uw-seattle-cs-guest-speakers-container02 {
+    visibility: visible;
+  }
+  .uw-seattle-cs-guest-speakers-text13 {
+    font-size: 24px;
+  }
+  .uw-seattle-cs-guest-speakers-text14 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-footer {
+    padding: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-container08 {
+    align-items: center;
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-text20 {
+    margin-top: var(--dl-space-space-twounits);
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .uw-seattle-cs-guest-speakers-links-container {
+    align-items: center;
+    flex-direction: column;
+  }
+  .uw-seattle-cs-guest-speakers-container09 {
+    margin-right: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-product-container {
+    margin-right: 0px;
+    flex-direction: row;
+  }
+  .uw-seattle-cs-guest-speakers-navlink06 {
+    font-weight: 400;
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-navlink07 {
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-navlink08 {
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-navlink09 {
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-container10 {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    align-items: flex-start;
+    margin-bottom: 0px;
+  }
+  .uw-seattle-cs-guest-speakers-contact {
+    align-items: flex-start;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .uw-seattle-cs-guest-speakers-text26 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .uw-seattle-cs-guest-speakers-text27 {
+    font-size: 12px;
+    text-align: center;
+  }
+}
