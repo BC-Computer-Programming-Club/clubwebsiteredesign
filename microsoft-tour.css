@@ -11,6 +11,7 @@
   width: 100%;
   height: 100px;
   display: flex;
+  visibility: visible;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +38,7 @@
 .microsoft-tour-desktop-menu {
   flex: 1;
   display: flex;
+  visibility: visible;
   justify-content: space-between;
 }
 .microsoft-tour-links {
@@ -131,7 +133,7 @@
   left: 0px;
   width: 100%;
   height: 0px;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: absolute;
@@ -151,6 +153,9 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.microsoft-tour-text03 {
+  visibility: hidden;
+}
 .microsoft-tour-close-menu {
   display: flex;
   align-items: center;
@@ -164,23 +169,29 @@
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
+  visibility: hidden;
   align-items: flex-start;
   flex-direction: column;
 }
-.microsoft-tour-text06 {
+.microsoft-tour-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.microsoft-tour-text07 {
+.microsoft-tour-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.microsoft-tour-text10 {
+.microsoft-tour-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.microsoft-tour-text11 {
+.microsoft-tour-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.microsoft-tour-text12 {
+.microsoft-tour-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .microsoft-tour-container02 {
   flex: 0 0 auto;
@@ -251,12 +262,12 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-text13 {
+.microsoft-tour-text08 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   margin-top: var(--dl-space-space-threeunits);
 }
-.microsoft-tour-text14 {
+.microsoft-tour-text09 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   margin-top: var(--dl-space-space-unit);
@@ -350,11 +361,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.microsoft-tour-text15 {
+.microsoft-tour-text10 {
   color: rgb(255, 255, 255);
   font-size: 28px;
 }
-.microsoft-tour-text20 {
+.microsoft-tour-text15 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
@@ -378,28 +389,28 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-navlink06 {
+.microsoft-tour-navlink11 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
 }
-.microsoft-tour-navlink07 {
+.microsoft-tour-navlink12 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-navlink08 {
+.microsoft-tour-navlink13 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-navlink09 {
+.microsoft-tour-navlink14 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-navlink10 {
+.microsoft-tour-navlink15 {
   color: #ffffff;
   text-decoration: none;
 }
@@ -416,7 +427,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-navlink11 {
+.microsoft-tour-navlink16 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -427,7 +438,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-text24 {
+.microsoft-tour-text19 {
   color: #ffffff;
 }
 .microsoft-tour-socials {
@@ -436,7 +447,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-text25 {
+.microsoft-tour-text20 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -497,11 +508,11 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.microsoft-tour-text26 {
+.microsoft-tour-text21 {
   color: #ffffff;
   align-self: center;
 }
-.microsoft-tour-text27 {
+.microsoft-tour-text22 {
   color: rgb(255, 255, 255);
   align-self: center;
   margin-top: var(--dl-space-space-unit);
@@ -510,7 +521,7 @@
   .microsoft-tour-text {
     font-size: 42px;
   }
-  .microsoft-tour-text13 {
+  .microsoft-tour-text08 {
     font-size: 48px;
   }
   .microsoft-tour-container05 {
@@ -545,26 +556,26 @@
     align-items: center;
     justify-content: center;
   }
-  .microsoft-tour-text06 {
+  .microsoft-tour-navlink06 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text07 {
+  .microsoft-tour-navlink07 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text10 {
+  .microsoft-tour-navlink08 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text11 {
+  .microsoft-tour-navlink09 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text12 {
+  .microsoft-tour-navlink10 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text13 {
+  .microsoft-tour-text08 {
     font-size: 38px;
   }
   .microsoft-tour-container05 {
@@ -602,7 +613,7 @@
   .microsoft-tour-logo {
     align-items: center;
   }
-  .microsoft-tour-text20 {
+  .microsoft-tour-text15 {
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-bottom: var(--dl-space-space-twounits);
@@ -621,15 +632,20 @@
   }
 }
 @media(max-width: 479px) {
+  .microsoft-tour-container01 {
+    visibility: hidden;
+  }
   .microsoft-tour-text {
     color: rgb(255, 255, 255);
     font-size: 20px;
   }
   .microsoft-tour-navbar-interactive {
     padding: var(--dl-space-space-unit);
+    position: relative;
   }
   .microsoft-tour-desktop-menu {
     display: none;
+    visibility: hidden;
   }
   .microsoft-tour-burger-menu {
     display: flex;
@@ -638,42 +654,51 @@
     fill: #ffffff;
   }
   .microsoft-tour-mobile-menu {
-    height: 35vh;
+    top: -100;
+    height: 50vh;
     padding: 16px;
+    position: absolute;
     visibility: visible;
+    margin-bottom: 0px;
     background-color: #000000;
   }
   .microsoft-tour-text03 {
     color: #ffffff;
+    visibility: visible;
+    margin-left: var(--dl-space-space-unit);
   }
   .microsoft-tour-text04 {
     font-size: 18px;
   }
   .microsoft-tour-icon2 {
-    fill: #ffffff;
+    fill: #000000;
   }
-  .microsoft-tour-text06 {
+  .microsoft-tour-links1 {
+    visibility: visible;
+  }
+  .microsoft-tour-navlink06 {
     color: rgb(255, 255, 255);
   }
-  .microsoft-tour-text07 {
+  .microsoft-tour-navlink07 {
     color: rgb(255, 255, 255);
   }
-  .microsoft-tour-text10 {
+  .microsoft-tour-navlink08 {
     color: rgb(255, 255, 255);
   }
-  .microsoft-tour-text11 {
+  .microsoft-tour-navlink09 {
     color: rgb(255, 255, 255);
   }
-  .microsoft-tour-text12 {
+  .microsoft-tour-navlink10 {
     color: rgb(255, 255, 255);
   }
   .microsoft-tour-container02 {
     visibility: visible;
   }
-  .microsoft-tour-text13 {
+  .microsoft-tour-text08 {
     font-size: 24px;
+    margin-top: 400px;
   }
-  .microsoft-tour-text14 {
+  .microsoft-tour-text09 {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -684,7 +709,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .microsoft-tour-text20 {
+  .microsoft-tour-text15 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }
@@ -699,20 +724,20 @@
     margin-right: 0px;
     flex-direction: row;
   }
-  .microsoft-tour-navlink06 {
+  .microsoft-tour-navlink11 {
     font-weight: 400;
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .microsoft-tour-navlink07 {
+  .microsoft-tour-navlink12 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .microsoft-tour-navlink08 {
+  .microsoft-tour-navlink13 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .microsoft-tour-navlink09 {
+  .microsoft-tour-navlink14 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
@@ -725,11 +750,11 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text26 {
+  .microsoft-tour-text21 {
     font-size: 12px;
     text-align: center;
   }
-  .microsoft-tour-text27 {
+  .microsoft-tour-text22 {
     font-size: 12px;
     text-align: center;
   }

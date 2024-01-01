@@ -11,6 +11,7 @@
   width: 100%;
   height: 100px;
   display: flex;
+  visibility: visible;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +38,7 @@
 .uw-seattle-cs-guest-speakers-desktop-menu {
   flex: 1;
   display: flex;
+  visibility: visible;
   justify-content: space-between;
 }
 .uw-seattle-cs-guest-speakers-links {
@@ -131,7 +133,7 @@
   left: 0px;
   width: 100%;
   height: 0px;
-  display: none;
+  display: flex;
   padding: 32px;
   z-index: 100;
   position: absolute;
@@ -151,6 +153,9 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
+.uw-seattle-cs-guest-speakers-text03 {
+  visibility: hidden;
+}
 .uw-seattle-cs-guest-speakers-close-menu {
   display: flex;
   align-items: center;
@@ -164,23 +169,29 @@
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
+  visibility: hidden;
   align-items: flex-start;
   flex-direction: column;
 }
-.uw-seattle-cs-guest-speakers-text06 {
+.uw-seattle-cs-guest-speakers-navlink06 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text07 {
+.uw-seattle-cs-guest-speakers-navlink07 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text10 {
+.uw-seattle-cs-guest-speakers-navlink08 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text11 {
+.uw-seattle-cs-guest-speakers-navlink09 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text12 {
+.uw-seattle-cs-guest-speakers-navlink10 {
   margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
 .uw-seattle-cs-guest-speakers-container02 {
   flex: 0 0 auto;
@@ -251,12 +262,12 @@
   margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text13 {
+.uw-seattle-cs-guest-speakers-text08 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   margin-top: var(--dl-space-space-threeunits);
 }
-.uw-seattle-cs-guest-speakers-text14 {
+.uw-seattle-cs-guest-speakers-text09 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   margin-top: var(--dl-space-space-unit);
@@ -350,11 +361,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.uw-seattle-cs-guest-speakers-text15 {
+.uw-seattle-cs-guest-speakers-text10 {
   color: rgb(255, 255, 255);
   font-size: 28px;
 }
-.uw-seattle-cs-guest-speakers-text20 {
+.uw-seattle-cs-guest-speakers-text15 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
@@ -378,28 +389,28 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.uw-seattle-cs-guest-speakers-navlink06 {
+.uw-seattle-cs-guest-speakers-navlink11 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-navlink07 {
+.uw-seattle-cs-guest-speakers-navlink12 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-navlink08 {
+.uw-seattle-cs-guest-speakers-navlink13 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-navlink09 {
+.uw-seattle-cs-guest-speakers-navlink14 {
   color: #ffffff;
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-navlink10 {
+.uw-seattle-cs-guest-speakers-navlink15 {
   color: #ffffff;
   text-decoration: none;
 }
@@ -416,7 +427,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.uw-seattle-cs-guest-speakers-navlink11 {
+.uw-seattle-cs-guest-speakers-navlink16 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -427,7 +438,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.uw-seattle-cs-guest-speakers-text24 {
+.uw-seattle-cs-guest-speakers-text19 {
   color: #ffffff;
 }
 .uw-seattle-cs-guest-speakers-socials {
@@ -436,7 +447,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.uw-seattle-cs-guest-speakers-text25 {
+.uw-seattle-cs-guest-speakers-text20 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -497,11 +508,11 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.uw-seattle-cs-guest-speakers-text26 {
+.uw-seattle-cs-guest-speakers-text21 {
   color: #ffffff;
   align-self: center;
 }
-.uw-seattle-cs-guest-speakers-text27 {
+.uw-seattle-cs-guest-speakers-text22 {
   color: rgb(255, 255, 255);
   align-self: center;
   margin-top: var(--dl-space-space-unit);
@@ -510,7 +521,7 @@
   .uw-seattle-cs-guest-speakers-text {
     font-size: 42px;
   }
-  .uw-seattle-cs-guest-speakers-text13 {
+  .uw-seattle-cs-guest-speakers-text08 {
     font-size: 48px;
   }
   .uw-seattle-cs-guest-speakers-container05 {
@@ -545,26 +556,26 @@
     align-items: center;
     justify-content: center;
   }
-  .uw-seattle-cs-guest-speakers-text06 {
+  .uw-seattle-cs-guest-speakers-navlink06 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text07 {
+  .uw-seattle-cs-guest-speakers-navlink07 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text10 {
+  .uw-seattle-cs-guest-speakers-navlink08 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text11 {
+  .uw-seattle-cs-guest-speakers-navlink09 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text12 {
+  .uw-seattle-cs-guest-speakers-navlink10 {
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text13 {
+  .uw-seattle-cs-guest-speakers-text08 {
     font-size: 38px;
   }
   .uw-seattle-cs-guest-speakers-container05 {
@@ -602,7 +613,7 @@
   .uw-seattle-cs-guest-speakers-logo {
     align-items: center;
   }
-  .uw-seattle-cs-guest-speakers-text20 {
+  .uw-seattle-cs-guest-speakers-text15 {
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-bottom: var(--dl-space-space-twounits);
@@ -621,15 +632,20 @@
   }
 }
 @media(max-width: 479px) {
+  .uw-seattle-cs-guest-speakers-container01 {
+    visibility: hidden;
+  }
   .uw-seattle-cs-guest-speakers-text {
     color: rgb(255, 255, 255);
     font-size: 20px;
   }
   .uw-seattle-cs-guest-speakers-navbar-interactive {
     padding: var(--dl-space-space-unit);
+    position: relative;
   }
   .uw-seattle-cs-guest-speakers-desktop-menu {
     display: none;
+    visibility: hidden;
   }
   .uw-seattle-cs-guest-speakers-burger-menu {
     display: flex;
@@ -638,42 +654,51 @@
     fill: #ffffff;
   }
   .uw-seattle-cs-guest-speakers-mobile-menu {
-    height: 35vh;
+    top: -100;
+    height: 50vh;
     padding: 16px;
+    position: absolute;
     visibility: visible;
+    margin-bottom: 0px;
     background-color: #000000;
   }
   .uw-seattle-cs-guest-speakers-text03 {
     color: #ffffff;
+    visibility: visible;
+    margin-left: var(--dl-space-space-unit);
   }
   .uw-seattle-cs-guest-speakers-text04 {
     font-size: 18px;
   }
   .uw-seattle-cs-guest-speakers-icon2 {
-    fill: #ffffff;
+    fill: #000000;
   }
-  .uw-seattle-cs-guest-speakers-text06 {
+  .uw-seattle-cs-guest-speakers-links1 {
+    visibility: visible;
+  }
+  .uw-seattle-cs-guest-speakers-navlink06 {
     color: rgb(255, 255, 255);
   }
-  .uw-seattle-cs-guest-speakers-text07 {
+  .uw-seattle-cs-guest-speakers-navlink07 {
     color: rgb(255, 255, 255);
   }
-  .uw-seattle-cs-guest-speakers-text10 {
+  .uw-seattle-cs-guest-speakers-navlink08 {
     color: rgb(255, 255, 255);
   }
-  .uw-seattle-cs-guest-speakers-text11 {
+  .uw-seattle-cs-guest-speakers-navlink09 {
     color: rgb(255, 255, 255);
   }
-  .uw-seattle-cs-guest-speakers-text12 {
+  .uw-seattle-cs-guest-speakers-navlink10 {
     color: rgb(255, 255, 255);
   }
   .uw-seattle-cs-guest-speakers-container02 {
     visibility: visible;
   }
-  .uw-seattle-cs-guest-speakers-text13 {
+  .uw-seattle-cs-guest-speakers-text08 {
     font-size: 24px;
+    margin-top: 400px;
   }
-  .uw-seattle-cs-guest-speakers-text14 {
+  .uw-seattle-cs-guest-speakers-text09 {
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -684,7 +709,7 @@
     align-items: center;
     flex-direction: column;
   }
-  .uw-seattle-cs-guest-speakers-text20 {
+  .uw-seattle-cs-guest-speakers-text15 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }
@@ -699,20 +724,20 @@
     margin-right: 0px;
     flex-direction: row;
   }
-  .uw-seattle-cs-guest-speakers-navlink06 {
+  .uw-seattle-cs-guest-speakers-navlink11 {
     font-weight: 400;
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .uw-seattle-cs-guest-speakers-navlink07 {
+  .uw-seattle-cs-guest-speakers-navlink12 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .uw-seattle-cs-guest-speakers-navlink08 {
+  .uw-seattle-cs-guest-speakers-navlink13 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .uw-seattle-cs-guest-speakers-navlink09 {
+  .uw-seattle-cs-guest-speakers-navlink14 {
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
@@ -725,11 +750,11 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .uw-seattle-cs-guest-speakers-text26 {
+  .uw-seattle-cs-guest-speakers-text21 {
     font-size: 12px;
     text-align: center;
   }
-  .uw-seattle-cs-guest-speakers-text27 {
+  .uw-seattle-cs-guest-speakers-text22 {
     font-size: 12px;
     text-align: center;
   }
