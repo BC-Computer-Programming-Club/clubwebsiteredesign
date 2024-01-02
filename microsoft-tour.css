@@ -7,11 +7,10 @@
   flex-direction: column;
   background-color: #323232;
 }
-.microsoft-tour-container01 {
+.microsoft-tour-container1 {
   width: 100%;
   height: 100px;
   display: flex;
-  visibility: visible;
   align-items: center;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +18,7 @@
 }
 .microsoft-tour-text {
   color: rgb(255, 255, 255);
-  font-size: 48px;
+  font-size: 44px;
   align-self: center;
   margin-top: var(--dl-space-space-twounits);
   margin-bottom: var(--dl-space-space-twounits);
@@ -27,6 +26,7 @@
 .microsoft-tour-navbar-interactive {
   width: 100%;
   display: flex;
+  align-self: to;
   align-items: center;
   padding-top: var(--dl-space-space-twounits);
   padding-left: var(--dl-space-space-threeunits);
@@ -38,13 +38,11 @@
 .microsoft-tour-desktop-menu {
   flex: 1;
   display: flex;
-  visibility: visible;
   justify-content: space-between;
 }
 .microsoft-tour-links {
   flex: 1;
   display: flex;
-  position: relative;
   align-items: center;
   flex-direction: row;
   justify-content: center;
@@ -77,6 +75,12 @@
   color: rgb(255, 255, 255);
   margin-left: var(--dl-space-space-twounits);
   text-decoration: none;
+}
+.microsoft-tour-buttons {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .microsoft-tour-link {
   display: contents;
@@ -132,14 +136,14 @@
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 0px;
-  display: flex;
+  height: 100vh;
+  display: none;
   padding: 32px;
   z-index: 100;
   position: absolute;
-  visibility: hidden;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #fff;
 }
 .microsoft-tour-nav {
   display: flex;
@@ -153,8 +157,8 @@
   margin-bottom: var(--dl-space-space-threeunits);
   justify-content: space-between;
 }
-.microsoft-tour-text03 {
-  visibility: hidden;
+.microsoft-tour-text01 {
+  height: 2rem;
 }
 .microsoft-tour-close-menu {
   display: flex;
@@ -169,7 +173,6 @@
   flex: 0 0 auto;
   display: flex;
   align-self: flex-start;
-  visibility: hidden;
   align-items: flex-start;
   flex-direction: column;
 }
@@ -193,30 +196,16 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-container02 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 30px;
-  display: flex;
-  visibility: hidden;
-  align-items: flex-start;
-  justify-content: flex-start;
+.microsoft-tour-navlink11 {
+  margin-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
 }
-.microsoft-tour-container03 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 30px;
+.microsoft-tour-buttons1 {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-.microsoft-tour-container04 {
-  flex: 0 0 auto;
-  width: auto;
-  height: 30px;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  margin-top: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .microsoft-tour-link04 {
   display: contents;
@@ -259,22 +248,21 @@
   height: 30px;
   object-fit: cover;
   margin-left: 0px;
-  margin-right: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-text08 {
+.microsoft-tour-text02 {
   color: rgb(255, 255, 255);
   font-size: 54px;
   margin-top: var(--dl-space-space-threeunits);
 }
-.microsoft-tour-text09 {
+.microsoft-tour-text03 {
   color: rgb(255, 255, 255);
   font-size: 24px;
   margin-top: var(--dl-space-space-unit);
   margin-left: var(--dl-space-space-sixunits);
   margin-right: var(--dl-space-space-sixunits);
 }
-.microsoft-tour-container05 {
+.microsoft-tour-container2 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -294,7 +282,7 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
 }
-.microsoft-tour-container06 {
+.microsoft-tour-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -314,7 +302,7 @@
   object-fit: cover;
   margin-left: var(--dl-space-space-unit);
 }
-.microsoft-tour-container07 {
+.microsoft-tour-container4 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -348,7 +336,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.microsoft-tour-container08 {
+.microsoft-tour-container5 {
   width: 100%;
   display: flex;
   align-items: flex-start;
@@ -361,11 +349,11 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.microsoft-tour-text10 {
+.microsoft-tour-text04 {
   color: rgb(255, 255, 255);
   font-size: 28px;
 }
-.microsoft-tour-text15 {
+.microsoft-tour-text09 {
   color: rgb(255, 255, 255);
   margin-top: var(--dl-space-space-oneandhalfunits);
 }
@@ -375,7 +363,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.microsoft-tour-container09 {
+.microsoft-tour-container6 {
   display: flex;
   align-items: flex-start;
   margin-right: 10rem;
@@ -389,15 +377,10 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-navlink11 {
+.microsoft-tour-navlink12 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
-  text-decoration: none;
-}
-.microsoft-tour-navlink12 {
-  color: #ffffff;
-  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
 .microsoft-tour-navlink13 {
@@ -412,9 +395,14 @@
 }
 .microsoft-tour-navlink15 {
   color: #ffffff;
+  margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-container10 {
+.microsoft-tour-navlink16 {
+  color: #ffffff;
+  text-decoration: none;
+}
+.microsoft-tour-container7 {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
@@ -427,7 +415,7 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-navlink16 {
+.microsoft-tour-navlink17 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -438,7 +426,7 @@
   margin-bottom: var(--dl-space-space-unit);
   text-decoration: none;
 }
-.microsoft-tour-text19 {
+.microsoft-tour-text13 {
   color: #ffffff;
 }
 .microsoft-tour-socials {
@@ -447,12 +435,12 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.microsoft-tour-text20 {
+.microsoft-tour-text14 {
   color: #ffffff;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.microsoft-tour-icon-group1 {
+.microsoft-tour-icon-group {
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -508,36 +496,36 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: var(--dl-color-gray-900);
 }
-.microsoft-tour-text21 {
+.microsoft-tour-text15 {
   color: #ffffff;
   align-self: center;
 }
-.microsoft-tour-text22 {
+.microsoft-tour-text16 {
   color: rgb(255, 255, 255);
   align-self: center;
   margin-top: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
   .microsoft-tour-text {
-    font-size: 42px;
+    font-size: 34px;
   }
-  .microsoft-tour-text08 {
+  .microsoft-tour-text02 {
     font-size: 48px;
   }
-  .microsoft-tour-container05 {
+  .microsoft-tour-container2 {
     margin-top: var(--dl-space-space-threeunits);
   }
-  .microsoft-tour-container06 {
+  .microsoft-tour-container3 {
     margin-top: var(--dl-space-space-threeunits);
   }
-  .microsoft-tour-container07 {
+  .microsoft-tour-container4 {
     margin-top: var(--dl-space-space-threeunits);
     margin-bottom: var(--dl-space-space-threeunits);
   }
   .microsoft-tour-footer {
     flex-direction: column;
   }
-  .microsoft-tour-container09 {
+  .microsoft-tour-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
   .microsoft-tour-product-container {
@@ -546,46 +534,74 @@
 }
 @media(max-width: 767px) {
   .microsoft-tour-text {
-    font-size: 32px;
+    font-size: 20px;
   }
   .microsoft-tour-navbar-interactive {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .microsoft-tour-desktop-menu {
+    display: none;
+  }
+  .microsoft-tour-navlink {
+    color: rgb(255, 255, 255);
+  }
   .microsoft-tour-burger-menu {
+    display: flex;
     align-items: center;
     justify-content: center;
   }
+  .microsoft-tour-icon {
+    fill: #ffffff;
+  }
+  .microsoft-tour-mobile-menu {
+    background-color: #000000;
+  }
+  .microsoft-tour-text01 {
+    color: #ffffff;
+  }
+  .microsoft-tour-icon2 {
+    fill: #ffffff;
+  }
   .microsoft-tour-navlink06 {
+    color: #ffffff;
     margin-bottom: var(--dl-space-space-unit);
   }
   .microsoft-tour-navlink07 {
-    margin-left: 0;
+    color: #ffffff;
     margin-bottom: var(--dl-space-space-unit);
   }
   .microsoft-tour-navlink08 {
+    color: #ffffff;
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .microsoft-tour-navlink09 {
+    color: #ffffff;
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
   .microsoft-tour-navlink10 {
+    color: #ffffff;
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text08 {
+  .microsoft-tour-navlink11 {
+    color: #ffffff;
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .microsoft-tour-text02 {
     font-size: 38px;
   }
-  .microsoft-tour-container05 {
+  .microsoft-tour-container2 {
     flex-direction: column;
   }
   .microsoft-tour-image09 {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .microsoft-tour-container06 {
+  .microsoft-tour-container3 {
     margin-top: var(--dl-space-space-unit);
     flex-direction: column;
   }
@@ -593,7 +609,7 @@
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }
-  .microsoft-tour-container07 {
+  .microsoft-tour-container4 {
     margin-top: var(--dl-space-space-unit);
     flex-direction: column;
   }
@@ -605,7 +621,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .microsoft-tour-container08 {
+  .microsoft-tour-container5 {
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
@@ -613,7 +629,7 @@
   .microsoft-tour-logo {
     align-items: center;
   }
-  .microsoft-tour-text15 {
+  .microsoft-tour-text09 {
     margin-top: var(--dl-space-space-twounits);
     text-align: center;
     margin-bottom: var(--dl-space-space-twounits);
@@ -624,7 +640,7 @@
     flex-direction: row;
     justify-content: center;
   }
-  .microsoft-tour-container09 {
+  .microsoft-tour-container6 {
     margin-right: var(--dl-space-space-fourunits);
   }
   .microsoft-tour-product-container {
@@ -632,84 +648,42 @@
   }
 }
 @media(max-width: 479px) {
-  .microsoft-tour-container01 {
-    visibility: hidden;
-  }
   .microsoft-tour-text {
     color: rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 14px;
   }
   .microsoft-tour-navbar-interactive {
     padding: var(--dl-space-space-unit);
-    position: relative;
-  }
-  .microsoft-tour-desktop-menu {
-    display: none;
-    visibility: hidden;
-  }
-  .microsoft-tour-burger-menu {
-    display: flex;
   }
   .microsoft-tour-icon {
     fill: #ffffff;
   }
   .microsoft-tour-mobile-menu {
-    top: -100;
-    height: 50vh;
     padding: 16px;
-    position: absolute;
-    visibility: visible;
-    margin-bottom: 0px;
-    background-color: #000000;
   }
-  .microsoft-tour-text03 {
-    color: #ffffff;
-    visibility: visible;
-    margin-left: var(--dl-space-space-unit);
-  }
-  .microsoft-tour-text04 {
-    font-size: 18px;
-  }
-  .microsoft-tour-icon2 {
-    fill: #000000;
-  }
-  .microsoft-tour-links1 {
-    visibility: visible;
+  .microsoft-tour-text01 {
+    font-size: 24px;
   }
   .microsoft-tour-navlink06 {
     color: rgb(255, 255, 255);
+    text-decoration: none;
   }
-  .microsoft-tour-navlink07 {
-    color: rgb(255, 255, 255);
-  }
-  .microsoft-tour-navlink08 {
-    color: rgb(255, 255, 255);
-  }
-  .microsoft-tour-navlink09 {
-    color: rgb(255, 255, 255);
-  }
-  .microsoft-tour-navlink10 {
-    color: rgb(255, 255, 255);
-  }
-  .microsoft-tour-container02 {
-    visibility: visible;
-  }
-  .microsoft-tour-text08 {
+  .microsoft-tour-text02 {
     font-size: 24px;
     margin-top: 400px;
   }
-  .microsoft-tour-text09 {
+  .microsoft-tour-text03 {
     margin-left: 0px;
     margin-right: 0px;
   }
   .microsoft-tour-footer {
     padding: var(--dl-space-space-unit);
   }
-  .microsoft-tour-container08 {
+  .microsoft-tour-container5 {
     align-items: center;
     flex-direction: column;
   }
-  .microsoft-tour-text15 {
+  .microsoft-tour-text09 {
     margin-top: var(--dl-space-space-twounits);
     margin-bottom: var(--dl-space-space-twounits);
   }
@@ -717,19 +691,15 @@
     align-items: center;
     flex-direction: column;
   }
-  .microsoft-tour-container09 {
+  .microsoft-tour-container6 {
     margin-right: 0px;
   }
   .microsoft-tour-product-container {
     margin-right: 0px;
     flex-direction: row;
   }
-  .microsoft-tour-navlink11 {
-    font-weight: 400;
-    margin-right: var(--dl-space-space-unit);
-    margin-bottom: 0px;
-  }
   .microsoft-tour-navlink12 {
+    font-weight: 400;
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
@@ -741,7 +711,11 @@
     margin-right: var(--dl-space-space-unit);
     margin-bottom: 0px;
   }
-  .microsoft-tour-container10 {
+  .microsoft-tour-navlink15 {
+    margin-right: var(--dl-space-space-unit);
+    margin-bottom: 0px;
+  }
+  .microsoft-tour-container7 {
     margin-top: var(--dl-space-space-oneandhalfunits);
     align-items: flex-start;
     margin-bottom: 0px;
@@ -750,11 +724,11 @@
     align-items: flex-start;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .microsoft-tour-text21 {
+  .microsoft-tour-text15 {
     font-size: 12px;
     text-align: center;
   }
-  .microsoft-tour-text22 {
+  .microsoft-tour-text16 {
     font-size: 12px;
     text-align: center;
   }
