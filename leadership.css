@@ -1016,6 +1016,9 @@
     margin-left: 0;
     margin-bottom: var(--dl-space-space-unit);
   }
+  .leadership-text02 {
+    font-size: 48px;
+  }
   .leadership-container02 {
     height: 1200px;
     margin-top: 0px;
@@ -1107,8 +1110,7 @@
     text-decoration: none;
   }
   .leadership-text02 {
-    font-size: 48px;
-    margin-top: 400;
+    font-size: 36px;
   }
   .leadership-footer {
     padding: var(--dl-space-space-unit);

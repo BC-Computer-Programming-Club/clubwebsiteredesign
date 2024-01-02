@@ -252,7 +252,7 @@
 }
 .microsoft-tour-text02 {
   color: rgb(255, 255, 255);
-  font-size: 54px;
+  font-size: 50px;
   margin-top: var(--dl-space-space-threeunits);
 }
 .microsoft-tour-text03 {
@@ -510,7 +510,7 @@
     font-size: 34px;
   }
   .microsoft-tour-text02 {
-    font-size: 48px;
+    font-size: 40px;
   }
   .microsoft-tour-container2 {
     margin-top: var(--dl-space-space-threeunits);
@@ -592,7 +592,12 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .microsoft-tour-text02 {
-    font-size: 38px;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+  }
+  .microsoft-tour-text03 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
   }
   .microsoft-tour-container2 {
     flex-direction: column;
@@ -669,8 +674,7 @@
     text-decoration: none;
   }
   .microsoft-tour-text02 {
-    font-size: 24px;
-    margin-top: 400px;
+    font-size: 16px;
   }
   .microsoft-tour-text03 {
     margin-left: 0px;

@@ -823,9 +823,6 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .home-container02 {
-    margin-top: 400px;
-  }
   .home-footer {
     padding: var(--dl-space-space-unit);
   }

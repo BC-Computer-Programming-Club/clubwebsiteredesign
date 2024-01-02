@@ -855,9 +855,6 @@
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
-  .gallery-text02 {
-    margin-top: 400px;
-  }
   .gallery-container02 {
     margin-bottom: var(--dl-space-space-sixunits);
   }

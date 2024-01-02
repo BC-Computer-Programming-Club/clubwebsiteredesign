@@ -252,7 +252,7 @@
 }
 .uw-seattle-cs-guest-speakers-text02 {
   color: rgb(255, 255, 255);
-  font-size: 54px;
+  font-size: 50px;
   margin-top: var(--dl-space-space-threeunits);
 }
 .uw-seattle-cs-guest-speakers-text03 {
@@ -510,7 +510,7 @@
     font-size: 34px;
   }
   .uw-seattle-cs-guest-speakers-text02 {
-    font-size: 48px;
+    font-size: 38px;
   }
   .uw-seattle-cs-guest-speakers-container2 {
     margin-top: var(--dl-space-space-threeunits);
@@ -592,7 +592,7 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .uw-seattle-cs-guest-speakers-text02 {
-    font-size: 38px;
+    font-size: 24px;
   }
   .uw-seattle-cs-guest-speakers-container2 {
     flex-direction: column;
@@ -669,8 +669,7 @@
     text-decoration: none;
   }
   .uw-seattle-cs-guest-speakers-text02 {
-    font-size: 24px;
-    margin-top: 400px;
+    font-size: 16px;
   }
   .uw-seattle-cs-guest-speakers-text03 {
     margin-left: 0px;
